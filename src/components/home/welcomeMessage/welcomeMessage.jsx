@@ -1,6 +1,7 @@
 // src/components/WelcomeMessage.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Atualize a importação
+import './welcomeMessage.css'
 
 const WelcomeMessage = () => {
   const navigate = useNavigate(); // Use useNavigate em vez de useHistory

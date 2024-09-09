@@ -1,0 +1,30 @@
+/* Estilização do Header */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }

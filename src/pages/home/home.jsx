@@ -1,8 +1,9 @@
 // src/pages/Home.jsx
+
 import Footer from 'components/home/footer';
 import Header from 'components/home/header';
-import InfoSection from 'components/home/infoSection';
-import WelcomeMessage from 'components/home/welcomeMessage';
+import InfoSection from 'components/home/infoSection/infoSection';
+import WelcomeMessage from 'components/home/welcomeMessage/welcomeMessage';
 import React from 'react';
 
 

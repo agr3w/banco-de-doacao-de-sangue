@@ -1,0 +1,33 @@
+/* Estilização da InfoSection */
+.info-section {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .info-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .info-section ul {
+    list-style: none;
+  }
+  
+  .info-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .info-section ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .info-section ul li a:hover {
+    text-decoration: underline;
+  }
+  

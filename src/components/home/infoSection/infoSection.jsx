@@ -1,5 +1,6 @@
 // src/components/InfoSection.jsx
 import React from 'react';
+import './infoSection.css'
 
 const InfoSection = () => {
   return (
