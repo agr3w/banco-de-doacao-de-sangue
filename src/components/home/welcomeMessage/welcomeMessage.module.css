@@ -1,20 +1,20 @@
 /* Estilização do WelcomeMessage */
-.welcome-message {
+.welcomeMessage {
     text-align: center;
     margin: 50px 0;
   }
   
-  .welcome-message h1 {
+  .welcomeMessage h1 {
     font-size: 32px;
     margin-bottom: 20px;
   }
   
-  .welcome-message p {
+  .welcomeMessage p {
     font-size: 18px;
     margin-bottom: 30px;
   }
   
-  .welcome-message button {
+  .welcomeMessage button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -23,7 +23,7 @@
     cursor: pointer;
   }
   
-  .welcome-message button:hover {
+  .welcomeMessage button:hover {
     background-color: #0056b3;
   }
   

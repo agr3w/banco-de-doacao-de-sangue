@@ -1,15 +1,15 @@
 // src/components/Footer.jsx
 import React from 'react';
-import './footer.css'
+import styles from './footer.module.css'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <p>© 2024 Verificador de Doação de Sangue. Todos os direitos reservados.</p>
       <div>
-        <a href="https://facebook.com">Facebook</a>
-        <a href="https://twitter.com">Twitter</a>
-        <a href="https://instagram.com">Instagram</a>
+        <a href="https://facebook.com" className={styles.footerLink}>Facebook</a>
+        <a href="https://twitter.com" className={styles.footerLink}>Twitter</a>
+        <a href="https://instagram.com" className={styles.footerLink}>Instagram</a>
       </div>
       <p>Contato: info@verificadordosangue.com</p>
     </footer>
