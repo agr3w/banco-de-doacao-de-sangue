@@ -1,13 +1,23 @@
+/* src/styles/variables.module.css */
+
 :root {
-    /* Definição de variáveis de cores */
+    /* Variáveis de cores existentes */
     --primary-color: #007bff; /* Azul */
     --secondary-color: #6c757d; /* Cinza escuro */
     --background-color: #f8f9fa; /* Cinza claro */
     --text-color: #333; /* Preto */
     --footer-background-color: #f1f1f1; /* Cor de fundo do rodapé */
   
-    /* Definição de variáveis de fontes */
+    /* Novas variáveis de cores para o tema de banco de sangue */
+    --blood-red-color: #b22222; /* Vermelho sangue */
+    --blood-drop-color: #ff4d4d; /* Gota de sangue */
+  
+    /* Variáveis de fontes */
     --font-primary: 'Arial', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
+  
+    /* Variáveis de elementos gráficos */
+    --icon-size-small: 16px;
+    --icon-size-large: 32px;
   }
   

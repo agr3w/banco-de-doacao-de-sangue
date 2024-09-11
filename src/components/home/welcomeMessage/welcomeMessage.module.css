@@ -1,21 +1,33 @@
+@import '../../../style/variables.module.css';
+
+
 /* src/styles/WelcomeMessage.module.css */
 
 .welcomeMessage {
-  padding: 20px;
+  padding: 30px;
+  margin: 20px 0; /* Adiciona espaçamento superior e inferior */
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--font-primary);
+  text-align: center;
+  border-left: 5px solid var(--blood-red-color);
+  border-radius: 8px; /* Arredonda os cantos */
 }
 
 .button {
-  background-color: var(--primary-color);
+  background-color: var(--blood-red-color);
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px;
   cursor: pointer;
   font-family: var(--font-secondary);
+  font-size: 16px; /* Aumenta o tamanho do texto do botão */
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 20px; /* Adiciona espaço entre o botão e o texto */
+  border-radius: 6px; /* Arredonda os cantos do botão */
 }
 
 .button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--blood-drop-color);
+  transform: scale(1.05);
 }

@@ -1,21 +1,23 @@
-/* Estilização do Footer */
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    border-top: 1px solid #ddd;
-  }
-  
-  footer p {
-    margin-bottom: 10px;
-  }
-  
-  footer a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
+@import '../../style/variables.module.css';
+
+/* src/styles/Footer.module.css */
+
+.footer {
+  background-color: var(--footer-background-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  font-family: var(--font-primary);
+  border-top: 3px solid var(--blood-red-color);
+}
+
+.footerLink {
+  margin: 0 10px;
+  color: var(--blood-red-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerLink:hover {
+  color: var(--blood-drop-color);
+}

@@ -1,11 +1,16 @@
 // src/components/Header.jsx
 import React from 'react';
 import styles from './header.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTint } from '@fortawesome/free-solid-svg-icons'; // Ícone de gota de sangue
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Logo do Projeto</div>
+      <div className={styles.logo}>
+        <FontAwesomeIcon icon={faTint} style={{ marginRight: '8px', color: 'white' }} />
+        Logo do Projeto
+      </div>
       <nav>
         <ul className={styles.navList}>
           <li><a href="/" className={styles.navItem}>Início</a></li>
