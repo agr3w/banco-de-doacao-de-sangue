@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 
-import Footer from 'components/home/footer';
-import Header from 'components/home/header';
+import Footer from 'components/common/footer';
+import Header from 'components/common/header';
 import InfoCard from 'components/home/infoCard/infoCard';
 import VideoWidget from 'components/home/videoWidget/videoWidget';
 import WelcomeMessage from 'components/home/welcomeMessage/welcomeMessage';

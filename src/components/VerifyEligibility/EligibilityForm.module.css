@@ -1,0 +1,28 @@
+@import '../../style/variables.module.css';
+
+.formContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-color-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 10px;
+}

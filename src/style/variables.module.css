@@ -2,11 +2,12 @@
 
 :root {
     /* Variáveis de cores existentes */
-    --primary-color: #007bff; /* Azul */
-    --secondary-color: #6c757d; /* Cinza escuro */
-    --background-color: #f8f9fa; /* Cinza claro */
-    --text-color: #333; /* Preto */
-    --footer-background-color: #f1f1f1; /* Cor de fundo do rodapé */
+    --primary-color: #d32f2f; /* Vermelho sangue */
+    --secondary-color: #c62828; /* Vermelho mais escuro */
+    --background-color: #f5f5f5; /* Fundo claro */
+    --background-color-light: #ffffff; /* Fundo do formulário */
+    --progress-background: #e0e0e0; /* Fundo da barra de progresso */
+    --progress-bar: #d32f2f; /* Cor da barra de progresso */
   
     /* Novas variáveis de cores para o tema de banco de sangue */
     --blood-red-color: #b22222; /* Vermelho sangue */
