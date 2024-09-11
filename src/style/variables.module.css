@@ -1,0 +1,13 @@
+:root {
+    /* Definição de variáveis de cores */
+    --primary-color: #007bff; /* Azul */
+    --secondary-color: #6c757d; /* Cinza escuro */
+    --background-color: #f8f9fa; /* Cinza claro */
+    --text-color: #333; /* Preto */
+    --footer-background-color: #f1f1f1; /* Cor de fundo do rodapé */
+  
+    /* Definição de variáveis de fontes */
+    --font-primary: 'Arial', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+  }
+  

@@ -1,29 +1,21 @@
-/* Estilização do WelcomeMessage */
+/* src/styles/WelcomeMessage.module.css */
+
 .welcomeMessage {
-    text-align: center;
-    margin: 50px 0;
-  }
-  
-  .welcomeMessage h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  .welcomeMessage p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .welcomeMessage button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .welcomeMessage button:hover {
-    background-color: #0056b3;
-  }
-  
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-primary);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
