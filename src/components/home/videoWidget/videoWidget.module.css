@@ -1,0 +1,21 @@
+@import '../../../style/variables.module.css';
+
+.videoContainer {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .title {
+    color: var(--blood-red-color);
+    font-family: var(--font-primary);
+    margin-bottom: 20px;
+  }
+  
+  .video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px; /* Adiciona cantos arredondados ao vídeo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao vídeo */
+  }
+  

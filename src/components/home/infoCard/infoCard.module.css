@@ -1,0 +1,39 @@
+@import '../../../style/variables.module.css';
+
+.card {
+    border: 1px solid var(--blood-red-color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    color: var(--blood-red-color);
+    font-family: var(--font-primary);
+  }
+  
+  .cardDescription {
+    color: var(--text-color);
+    font-family: var(--font-secondary);
+    margin: 10px 0;
+  }
+  
+  .cardLink {
+    color: var(--blood-red-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .cardLink:hover {
+    color: var(--blood-drop-color);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  

@@ -1,0 +1,21 @@
+/* src/styles/home.module.css */
+
+@import '../../style/variables.module.css';
+
+.homeContainer {
+    padding: 0;
+    background-color: var(--background-color);
+  }
+  
+  .infoSection {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards se alinhem em várias linhas */
+    justify-content: space-between; /* Distribui os cards com espaçamento entre eles */
+    gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 40px; /* Espaço acima da seção de informações */
+    padding: 20px;
+    background-color: var(--background-color-light); /* Cor de fundo diferente para destacar a seção */
+    border-radius: 10px; /* Arredonda os cantos da seção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  }
+  
