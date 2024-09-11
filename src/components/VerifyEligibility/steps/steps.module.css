@@ -1,0 +1,18 @@
+.step {
+  padding: 20px;
+}
+
+.reviewContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.reviewContainer p {
+  margin: 10px 0;
+}
+
+.reviewContainer strong {
+  color: #333;
+}
