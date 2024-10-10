@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Eligibility Form - Sistema de Doação de Sangue
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um sistema de formulário de elegibilidade para doação de sangue, desenvolvido com **React.js** e **Material UI**, focando em uma interface simples e organizada para que usuários possam verificar sua aptidão para doar sangue.
 
-## Available Scripts
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/react-17.0.2-blue)
+![Material-UI](https://img.shields.io/badge/material--ui-5.0.0-blue)
+![Node](https://img.shields.io/badge/node-16.0.0-green)
 
-In the project directory, you can run:
+## 📋 Descrição
 
-### `npm start`
+Este formulário permite ao usuário responder a uma série de perguntas sobre sua saúde, hábitos e histórico de viagens, a fim de verificar se estão aptos a doar sangue. O formulário está dividido em várias etapas (steps) e inclui uma barra de progresso para guiar o usuário durante todo o processo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Formulário de múltiplas etapas (steps)**: O formulário é dividido em etapas para facilitar o preenchimento.
+- **Progress Bar**: Uma barra de progresso que acompanha o usuário em todas as etapas do formulário.
+- **Revisão final**: Na última etapa, o usuário pode revisar todas as respostas antes de enviar.
+- **Estilo moderno**: A interface é estilizada com **Material UI** e CSS modules para um design clean e elegante.
+- **Respostas dinâmicas**: Campos são mostrados ou escondidos de acordo com as respostas do usuário, criando uma experiência personalizada.
 
-### `npm test`
+## 🛠️ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** - Biblioteca JavaScript para construir interfaces de usuário.
+- **Material UI** - Biblioteca de componentes React que implementa o Material Design.
+- **CSS Modules** - Para garantir um escopo local nos estilos de componentes.
+- **React Router** - Navegação entre páginas.
+- **JavaScript ES6+** - Utilização de sintaxe moderna do JavaScript.
 
-### `npm run build`
+## 📂 Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+📦 eligibility-form
+├── 📂 public
+├── 📂 src
+│   ├── 📂 components
+│   ├── 📂 steps
+│   │   ├── Step1.jsx
+│   │   ├── Step2.jsx
+│   │   ├── Step3.jsx
+│   │   ├── Step4.jsx
+│   │   ├── Step5.jsx
+│   │   └── steps.module.css
+│   ├── 📂 common
+│   │   ├── ProgressBar.jsx
+│   ├── 📂 styles
+│   ├── EligibilityForm.jsx
+│   └── App.js
+└── README.md
+````
+## 🖥️ Como rodar o projeto localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/eligibility-form.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse o diretório do projeto
+cd eligibility-form
 
-### `npm run eject`
+# Instale as dependências
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Rode o projeto
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# O projeto estará rodando em http://localhost:3000/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
