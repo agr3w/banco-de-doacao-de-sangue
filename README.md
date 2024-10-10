@@ -55,7 +55,7 @@ Este formulário permite ao usuário responder a uma série de perguntas sobre s
 git clone https://github.com/seu-usuario/eligibility-form.git
 
 # Acesse o diretório do projeto
-cd eligibility-form
+cd verificador-doacao-sangue
 
 # Instale as dependências
 npm install
