@@ -1,6 +1,6 @@
 # 🩸 Banco de Doação de Sangue
 
-Este projeto é um sistema de formulário de elegibilidade para doação de sangue, desenvolvido com **React.js** e **Material UI**, focando em uma interface simples e organizada para que usuários possam verificar sua aptidão para doar sangue.
+O projeto é um sistema de formulário de elegibilidade para doação de sangue, desenvolvido com **React.js** e **Material UI**, focando em uma interface simples e organizada para que usuários possam verificar sua aptidão para doar sangue.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-17.0.2-blue)
