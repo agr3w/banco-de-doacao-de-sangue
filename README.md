@@ -52,7 +52,7 @@ Este formulário permite ao usuário responder a uma série de perguntas sobre s
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/eligibility-form.git
+git clone https://github.com/agr3w/banco-de-doacao-de-sangue.git
 
 # Acesse o diretório do projeto
 cd verificador-doacao-sangue
